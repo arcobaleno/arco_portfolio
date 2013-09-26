@@ -1,0 +1,116 @@
+p#notice {
+	font-size:24px;
+	width:100%;
+	text-align:center;
+	color:#ffd400;
+	font-weight:bold;
+	margin-bottom:20px;
+	border: 1px solid #ffd400;
+	letter-spacing:1px;
+}
+
+#arco_logo {
+	font-size:40px;
+	color:white;
+}
+
+.client_image {
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+i.services-icons {
+	color:#ffd400;
+	font-size:32px;
+}
+
+h2.team-label {
+	color:white;
+}
+
+h3.team-members {
+	color:white;
+}
+
+li.rvn {
+	margin-left:0px;
+}
+
+li.milestone {
+	margin-left:0px;
+}
+
+ul.client-carousel {
+	position:relative;
+	left:130px;
+	border:none;
+}
+
+.what_we_do {
+	color:white;
+}
+
+.request_message {
+	width:420px;
+	float:left;
+}
+
+.message_text {
+	height:388px;
+}
+
+.request_input {
+	width:700px;
+}
+
+.three_inputs {
+	float:left;
+	margin-left:50px;
+}
+
+/* ADMIN PAGE */
+
+h1.request_list {
+	color:#ffd400;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+table.table {
+	color:white;
+	border:1px solid white;
+}
+
+th.request {
+	font-size:24px;
+	font-weight:bold;
+	padding-left:0px;
+	padding-right:30px;
+	text-align:center;
+	border-bottom:1px solid white;
+}
+
+td.request {
+	padding-left:10px;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:10px;
+	overflow:auto;
+	font-size:20px;
+	border-left:1px solid white;
+	border-bottom:1px solid white;
+}
+
+td.message {
+	width:400px;
+}
+
+div.languages {
+	height:265px;
+	width:990px;
+	background-color:rgba(205,201,201,0.6)
+
+}

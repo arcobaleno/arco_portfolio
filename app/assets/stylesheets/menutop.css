@@ -1,0 +1,8 @@
+#main_menu {
+	position: absolute;
+	top: 700px;
+}
+
+#blog, #shortcodes {
+	margin-top: 60px;
+}

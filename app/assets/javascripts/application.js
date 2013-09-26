@@ -12,4 +12,17 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.colors
+//= require scripts
+//= require jquery.appear.min
+//= require jquery.timeago
+//= require jquery.parallax-1.1.3
+//= require jquery.scrollTo-1.4.3.1-min
+//= require jquery.localscroll-1.2.7-min
+//= require jquery.sticky
+//= require jquery.timer
+//= require jquery.flexisel
+//= require jquery.fitvids.js
+//= require jquery.isotope.min
+//= require jquery.responsiveslides.min
 //= require_tree .

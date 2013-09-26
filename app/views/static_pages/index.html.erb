@@ -1,1 +1,332 @@
-<h1>Index Page</h1>
+<header id="home" class="home_parallax slide-menu">
+	<div class="home_text">
+		<div class="hello">
+			<%= image_tag 'line.png', :class => 'line-decorative' %>
+			<span>Welcome to</span>
+			<%= image_tag 'line.png', :class => 'line-decorative' %>
+		</div>
+		<div class="home_text_Q">
+			<p class="home_page_title">ARCO WEB DEV</p>
+		</div>
+		<div class="home_text_W">
+			<p>WE KNOW WEB DEVELOPMENT</p>
+		</div>
+		<div class="home_bottom_arrow">
+			<a href="#about"><i class="icon-angle-down icon-3x"></i></a>
+		</div>
+	</div>
+</header>
+		<!-- MAIN MENU -->
+		<nav id="main_menu" class="general_bg sticky-menu general_color">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="container_logo">
+							<div class="logo">
+								<%= link_to (image_tag('arco_logo.png')), root_path %>
+							</div>
+						</div>
+						<div class="container_menu visible-md visible-lg" id="desktop-menu">
+							<ul id="nav" class="menu scrolling-links">
+								<li><a href="#home">Home</a></li>                
+								<li><a href="#about">About</a></li>
+								<li><a href="#services">Services</a></li>
+								<li><a href="#portfolio">Portfolio</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+						<div class="container_menu hidden-md hidden-lg">
+							<div class="menu-mobile-button general_color">
+								<i class="icon-reorder"></i>
+							</div>
+						</div>
+						<div class="clearfix"></div>			
+					</div>
+				</div>
+			</div>
+			<!-- MOBILE MENU -->
+			<div class="scrolling-links hidden-md hidden-lg">
+				<div id="mobile-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul>
+									<li><a href="#home">Home</a></li>                
+									<li><a href="#about">About</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#portfolio">Portfolio</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- ABOUT SECTION -->
+		<div id="about" class="slide-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">
+							<h2></span>About Us</h2>
+							<div class="head-line"></div>
+						</div>
+						<div class="text_Q">What we <span class="general_color">Do</span></div>
+
+						<div class="text_W what_we_do"><span class="general_color">Full stackweb development,</span>  project consulting, and e-commerce solutions. Our experienced team utilizes new technologies and a true understanding of the marketplace to build products customized to <span class="general_color">your needs.</span>
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="content_box_parallax">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 info-box">
+						<%= image_tag 'rails.png' %>
+						<h3>Ruby on Rails</h3>
+						<p>Sturdy back end infrastructure, optimized for sustainable programming productivity.</p>
+					</div>
+					<div class="col-md-3 info-box">
+						<%= image_tag 'html5.png' %>
+						<h3>HTML 5</h3>
+						<p>The necessary basics of any website out there.</p>
+					</div>
+					<div class="col-md-3 info-box">
+						<%= image_tag 'css3.png' %>
+						<h3>CSS 3</h3>
+						<p>Front end services that utilize SCSS and the Bootsrap framework to provide clean, innovative design for your project.</p>
+					</div>
+					<div class="col-md-3 info-box">
+						<%= image_tag 'jquery.png' %>
+						<h3>jQuery</h3>
+						<p>Sleek, flowing animations that combine to create a natural and intuitive experience for the end user.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!-- TEAM -->
+			<div id="team" class="team_parallax clearfix">
+				<div class="title">
+						<h2 class="team-label">Meet The Team</h2>
+						<div class="head-line"></div>
+				</div>
+				<div class="container team-container">
+					<div class="row">
+						<div class="col-md-3 team-member">
+							<div class="team-social">
+								<div class="team-icons">	
+									<a href="http://www.linkedin.com/pub/travis-brault/58/2a0/159/" class="linkedin-bg social-icon"><i class="icon-linkedin"></i></a>
+									<a href="https://github.com/travisbrault" class="github-bg social-icon"><i class="icon-github"></i></a>
+								</div>
+								<%= image_tag 'trav1.png', :class => 'img-circle' %>
+								<div class="team-button"><i class="icon-user"></i></div>
+							</div>
+							<h3 class="team-members">Travis Brault</h3>
+							<p class="team-work">Web Developer</p>
+						</div>
+						<div class="col-md-3 team-member">
+							<div class="team-social">
+								<div class="team-icons">
+									<a href="#" class="linkedin-bg social-icon"><i class="icon-linkedin"></i></a>
+									<a href="https://github.com/vanmichael" class="github-bg social-icon"><i class="icon-github"></i></a>
+								</div>
+								<%= image_tag 'van.png', :class => 'img-circle' %>
+								<div class="team-button"><i class="icon-user"></i></div>
+							</div>
+							<h3 class="team-members">Van Nguyen</h3>
+							<p class="team-work">Web Developer</p>
+						</div>
+						<div class="col-md-3 team-member">
+							<div class="team-social">
+								<div class="team-icons">
+									<a href="#" class="linkedin-bg social-icon"><i class="icon-linkedin"></i></a>
+									<a href="#" class="github-bg social-icon"><i class="icon-github"></i></a>
+								</div>
+								<%= image_tag 'sillhouette.png', :class => 'img-circle' %>
+								<div class="team-button"><i class="icon-user"></i></div>
+							</div>
+							<h3 class="team-members">Aman Mehta</h3>
+							<p class="team-work">Consultant</p>
+						</div>
+						<div class="col-md-3 team-member">
+							<div class="team-social">
+								<div class="team-icons">
+									<a href="#" class="linkedin-bg social-icon"><i class="icon-linkedin"></i></a>
+									<a href="#" class="github-bg social-icon"><i class="icon-github"></i></a>
+								</div>
+								<%= image_tag 'sillhouette.png', :class => 'img-circle' %>
+								<div class="team-button"><i class="icon-user"></i></div>
+							</div>
+							<h3 class="team-members"></h3>
+							<p class="team-work">Graphic Designer</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- SERVICES -->
+		<div id="services" class="slide-menu">
+			<div class="container">	
+					<div class="title title-style-1">
+						<h2>Services</h2>
+						<div class="head-line-white"></div>
+					</div>
+						<div class="row clearfix">
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-info services-icons"></i> Informational Sites</h4>
+								<p>
+									Need to get your name out there? We build custom portfolios, resume pages, and online menus -- providing brick-and-mortar shops exposure to the online world.
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-usd services-icons"></i> E-Commerce</h4>
+								<p>
+									We build custom e-commerce websites to provide your business access to the online marketplace.
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-shopping-cart services-icons"></i> Shopify</h4>
+								<p>
+									If you'd rather use Shopify, we don't mind. 
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-briefcase services-icons"></i> Contract Work</h4>
+								<p>
+									Currently working on a project and need an extra hand? If we like the idea, and know we can be helpful, we can add features or smooth out any issues for you.
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-thumbs-up-alt services-icons"></i> Consulting</h4>
+								<p>
+									Need to get your name out there? We build custom portfolios, resume pages, and online menus. Provide an internet presence, giving brick-and-mortar shops exposure to the online world.
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-lightbulb services-icons"></i> Graphic Design</h4>
+								<p>
+									Need to get your name out there? We build custom portfolios, resume pages, and online menus. Provide an internet presence, giving brick-and-mortar shops exposure to the online world.
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+								
+								<h4><i class="icon-youtube-play services-icons"></i> Web Apps</h4>
+								<p>
+									Need to get your name out there? We build custom portfolios, resume pages, and online menus. Provide an internet presence, giving brick-and-mortar shops exposure to the online world.
+								</p>
+							</div>
+							<div class="col-md-3 services-box">
+							
+								<h4><i class="icon-smile services-icons"></i> Dog Walking</h4>
+								<p>
+									Tired of poochy? We'll take care of him. 
+								</p>
+							</div>
+						</div>
+			</div>
+		</div>
+		<!-- PRICING TABLES -->
+		<!-- PORTFOLIO -->
+		<div id="portfolio" class="slide-menu clients_parallax">
+			<div class="container">
+				<div class="title title-style-1">
+					<h2>Portfolio</h2>
+					<div class="head-line-white"></div>
+				</div>
+				<h2 class="clients-text">Below are the companies that have trusted us</h2>
+					<ul class="client-carousel">
+						<li class="client_image milestone"><%= link_to (image_tag('milestone.png')), 'http://www.milestonerecovery.com', :class => 'img-responsive milestone-text' %></li>
+						<li class="client_image babsonmexico"><%= link_to (image_tag('babsonmexico.png')), 'http://www.babsonmexico.com', :class => 'img-responsive babsonmexico-text' %></li>
+						<li class="client_image globalcatalysts"><%= link_to (image_tag('globalcatalysts.png')), 'http://www.globalcatalysts.com.mx', :class => 'img-responsive globalcatalysts-text' %></li>
+						<li class="client_image rvn"><%= link_to (image_tag('rvn.png')), 'http://www.rvnnyc.com', :class => 'img-responsive rvn-text' %></li>
+					</ul>
+			</div>
+		</div>
+
+		<!-- TESTIMONIALS -->
+		<!-- NEWS -->
+		<!-- TWITTER -->
+		<!-- CONTACT -->
+		<div id="contact" class="slide-menu">
+			<div class="container">
+				<div class="title title-style-2">
+					<h2>Contact</h2>
+					<div class="head-line"></div>
+				</div>
+				<h2 class="contact-text">Propose a project, request a <span class="general_color">quote,</span> or just call to chat.</h2>
+				<div class="contact-info">
+					<div class="col-md-3 contact-content-1">
+						<div class="style-icon-1 general_bg">
+							<i class="icon-map-marker"></i>
+						</div>
+						<div class="contact-text-info">
+							195 Binney Street,
+							Cambridge, MA
+						</div>
+					</div>
+					<div class="col-md-3 contact-content-2">
+						<div class="style-icon-1 general_bg">
+							<i class="icon-phone"></i>
+						</div>
+						<div class="contact-text-info">
+							(978) 602-7171
+						</div>
+					</div>
+					<div class="col-md-3 contact-content-3">
+						<div class="style-icon-1 general_bg">
+							<i class="icon-envelope-alt"></i>
+						</div>
+						<div class="contact-text-info">
+							arcowebdev@gmail.com
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="contact-form">
+
+
+
+					<%= render 'requests/form' %>
+
+
+
+
+				</div>
+				<div class="contact-success">
+					<h2 class="contact-text">Thank you for your <span class="general_color">message</span>. We will try to answer as soon as possible</h2>
+				</div>
+			</div>
+		</div>
+		<!-- GOOGLE MAP -->
+		<div id="google-map">
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=195%2Bbinney%2Bstreet%2C%2Bcambridge%2C%2Bma%2B02142&ie=UTF8&z=12&t=m&iwloc=near&output=embed"></iframe>
+		</div>
+		<div id="backtop">
+			<i class="icon-angle-up"></i>
+		</div>
+		<!-- FOOTER -->
+		<footer id="footer" class="general_bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p class="copyright">© 2013 Make. All rights resevered.</p>
+					</div>
+					<div class="col-md-6 foot-social">
+						<a href="#" class="social-icon fb-foot"><i class="icon-facebook"></i></a>
+						<a href="#" class="social-icon twitter-foot"><i class="icon-twitter"></i></a>
+						<a href="#" class="social-icon linkedin-foot"><i class="icon-linkedin"></i></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</footer>

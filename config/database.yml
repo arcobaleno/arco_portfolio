@@ -14,7 +14,7 @@
 #
 development:
   adapter: postgresql
-  database: portfolio_development
+  database: arco_portfolio_development
   pool: 5
   username: vannguyen
   password:
@@ -41,7 +41,7 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: portfolio_test
+  database: arco_portfolio_test
   pool: 5
   username: vannguyen
   password:
@@ -50,7 +50,7 @@ test:
 production:
   adapter: postgresql
   encoding: utf8
-  database: portfolio_production
+  database: arco_portfolio_production
   pool: 5
   username: vannguyen
   password:

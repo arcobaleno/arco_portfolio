@@ -1,0 +1,150 @@
+body {
+	background: #161515 !important;
+}
+
+#services, #news, #pricing-tables {
+	background: transparent !important;
+}
+
+.title-style-2 {
+	color: #fff !important;
+}
+
+.title {
+	color: #fff;
+}
+
+#team .title {
+	color: #515a5f !important;
+}
+
+.column_text h3 {
+	color: #fff !important;
+}
+
+.bar h6 {
+	color: #fff !important;
+}
+
+.number_details {
+	color: #fff !important;
+}
+
+.portfolio-text {
+	color: #fff !important;
+}
+
+.portfolio-border h4 {
+	color: #fff !important;
+}
+
+.portfolio-text {
+	border-bottom: 1px dashed #515a5f !important;
+}
+
+.portfolio-detail {
+	border-bottom: 1px dashed #515a5f !important;
+}
+
+.contact-info {
+	border-top: 1px dashed #515a5f !important;
+	border-bottom: 1px dashed #515a5f !important;
+}
+
+.divider-1 {
+	border-top: 1px dashed #515a5f !important;
+}
+
+.search-field input[type="text"] {
+	background-color: transparent !important;
+}
+
+.contact-text {
+	color: #fff !important;
+}
+
+.contact-info {
+	color: #fff !important;
+}
+
+.contact-info a {
+	color: #fff !important;
+}
+
+.contact-text-info span {
+	color: #fff !important;
+}
+
+.head-line-dark {
+	background-color: #fff !important;
+}
+
+.tagcloud a {
+	color: #515a5f;
+	border: 1px solid #515a5f;
+}
+
+.search-field {
+	border: 1px solid #515a5f !important;
+}
+
+.search-field input[type="submit"] {
+
+}
+
+.widget ul li {
+	border-bottom: 1px dashed #515a5f !important;
+}
+
+.author-comment-avatar, #post-author img, .post-list-comments li > div, .post-list-comments li ul li {
+	border-color: #515a5f !important;
+}
+
+.toggle {
+	
+}
+
+.tab-content {
+	background-color: #161515;
+	border-color: #515a5f !important;
+	color: #515a5f;
+}
+
+.toggle-title {
+	background-color: #161515;
+	border-color: #515a5f !important;
+}
+
+.toggle-content {
+	background-color: #161515;
+	border-color: #515a5f !important;
+	color: #515a5f;
+}
+
+.toggle-arrow {
+	border-color: #515a5f !important;
+}
+
+.home_text_Q {
+	color: #fff !important;
+	overflow:hidden;
+	height:160px;
+}
+
+.tabs > ul li a {
+	background-color: #161515;
+	border-color: #515a5f;
+}
+
+.active-tab a {
+	background-color: #161515 !important;
+	border-bottom-color: #515a5f !important;
+}
+
+.tabs > ul li:first-child a {
+	border-color: #515a5f;	
+}
+
+.tabs > ul li:last-child a {
+	border-color: #515a5f;
+}

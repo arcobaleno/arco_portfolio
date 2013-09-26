@@ -1,31 +1,29 @@
-<div class="request_form">
-
-	<% if notice %>
+<div class="row">
+<% if notice %>
 	<p id="notice"><%= notice %></p>
 	<% end %>
 
 	<%= form_for :request, :url => {:action => :create, :controller => :requests} do |f| %>
 
-	<div class="request_message">
+	<div class="col-md-6">
 		<%= f.text_area :message, :placeholder => 'Start your message here...' %>
 	</div>
 
-	<div class="three_inputs">
-		<div class="request_input">
-			<%= f.text_field :name, :placeholder => 'Your Name (required)'%>
-		</div>
+	<div class="col-md-6">
+			<%= f.text_field :name, :placeholder => 'Your Name (required)' %>
 
-		<div class="request_input">
-			<%= f.text_field :email, :placeholder => 'Your Email (required)'%>
-		</div>
-
-		<div class="request_input">
+			<%= f.text_field :email, :placeholder => 'Your Email (required)' %>
+	
 			<%= f.text_field :website, :placeholder => 'Your Website' %>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="contact-button general_bg">
+		<i class="icon-envelope"></i>
+		<%= f.submit "" %>
+		<% end %>
 		</div>
 	</div>
-
-	<i class="icon-envelope"></i>
-	<%= f.submit "", :class => "contact-button general-bg" %>
-
-	<% end %>
 </div>

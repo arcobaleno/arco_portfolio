@@ -92,7 +92,7 @@
 					<div class="col-md-3 info-box">
 						<%= image_tag 'html5.png' %>
 						<h3>HTML 5</h3>
-						<p>The necessary basics of any website out there.</p>
+						<p>The necessary basics of web design, .</p>
 					</div>
 					<div class="col-md-3 info-box">
 						<%= image_tag 'css3.png' %>
@@ -139,30 +139,6 @@
 							<h3 class="team-members">Van Nguyen</h3>
 							<p class="team-work">Web Developer</p>
 						</div>
-						<div class="col-md-3 team-member">
-							<div class="team-social">
-								<div class="team-icons">
-									<a href="#" class="linkedin-bg social-icon"><i class="icon-linkedin"></i></a>
-									<a href="#" class="github-bg social-icon"><i class="icon-github"></i></a>
-								</div>
-								<%= image_tag 'sillhouette.png', :class => 'img-circle' %>
-								<div class="team-button"><i class="icon-user"></i></div>
-							</div>
-							<h3 class="team-members">Aman Mehta</h3>
-							<p class="team-work">Consultant</p>
-						</div>
-						<div class="col-md-3 team-member">
-							<div class="team-social">
-								<div class="team-icons">
-									<a href="#" class="linkedin-bg social-icon"><i class="icon-linkedin"></i></a>
-									<a href="#" class="github-bg social-icon"><i class="icon-github"></i></a>
-								</div>
-								<%= image_tag 'sillhouette.png', :class => 'img-circle' %>
-								<div class="team-button"><i class="icon-user"></i></div>
-							</div>
-							<h3 class="team-members"></h3>
-							<p class="team-work">Graphic Designer</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -185,16 +161,16 @@
 							</div>
 							<div class="col-md-3 services-box">
 								
-								<h4><i class="icon-usd services-icons"></i> E-Commerce</h4>
+								<h4><i class="icon-shopping-cart services-icons"></i> E-Commerce/Shopify</h4>
 								<p>
-									We build custom e-commerce websites to provide your business access to the online marketplace.
+									We build custom e-commerce websites to provide your business access to the online marketplace. If you'd rather use Shopify, we can do that too!
 								</p>
 							</div>
 							<div class="col-md-3 services-box">
 								
-								<h4><i class="icon-shopping-cart services-icons"></i> Shopify</h4>
+								<h4><i class="icon-youtube-play services-icons"></i> Web Apps</h4>
 								<p>
-									If you'd rather use Shopify, we don't mind. 
+									We build solid web applications, combining front-end beauty with robust back-end services.
 								</p>
 							</div>
 							<div class="col-md-3 services-box">
@@ -202,34 +178,6 @@
 								<h4><i class="icon-briefcase services-icons"></i> Contract Work</h4>
 								<p>
 									Currently working on a project and need an extra hand? If we like the idea, and know we can be helpful, we can add features or smooth out any issues for you.
-								</p>
-							</div>
-							<div class="col-md-3 services-box">
-								
-								<h4><i class="icon-thumbs-up-alt services-icons"></i> Consulting</h4>
-								<p>
-									Need to get your name out there? We build custom portfolios, resume pages, and online menus. Provide an internet presence, giving brick-and-mortar shops exposure to the online world.
-								</p>
-							</div>
-							<div class="col-md-3 services-box">
-								
-								<h4><i class="icon-lightbulb services-icons"></i> Graphic Design</h4>
-								<p>
-									Need to get your name out there? We build custom portfolios, resume pages, and online menus. Provide an internet presence, giving brick-and-mortar shops exposure to the online world.
-								</p>
-							</div>
-							<div class="col-md-3 services-box">
-								
-								<h4><i class="icon-youtube-play services-icons"></i> Web Apps</h4>
-								<p>
-									Need to get your name out there? We build custom portfolios, resume pages, and online menus. Provide an internet presence, giving brick-and-mortar shops exposure to the online world.
-								</p>
-							</div>
-							<div class="col-md-3 services-box">
-							
-								<h4><i class="icon-smile services-icons"></i> Dog Walking</h4>
-								<p>
-									Tired of poochy? We'll take care of him. 
 								</p>
 							</div>
 						</div>
@@ -243,7 +191,7 @@
 					<h2>Portfolio</h2>
 					<div class="head-line-white"></div>
 				</div>
-				<h2 class="clients-text">Below are the companies that have trusted us</h2>
+				<h2 class="clients-text">Below are clients that have trusted us</h2>
 					<ul class="client-carousel">
 						<li class="client_image milestone"><%= link_to (image_tag('milestone.png')), 'http://www.milestonerecovery.com', :class => 'img-responsive milestone-text' %></li>
 						<li class="client_image babsonmexico"><%= link_to (image_tag('babsonmexico.png')), 'http://www.babsonmexico.com', :class => 'img-responsive babsonmexico-text' %></li>
@@ -293,14 +241,7 @@
 					<div class="clearfix"></div>
 				</div>
 				<div class="contact-form">
-
-
-
 					<%= render 'requests/form' %>
-
-
-
-
 				</div>
 				<div class="contact-success">
 					<h2 class="contact-text">Thank you for your <span class="general_color">message</span>. We will try to answer as soon as possible</h2>

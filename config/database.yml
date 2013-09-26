@@ -16,7 +16,7 @@ development:
   adapter: postgresql
   database: arco_portfolio_development
   pool: 5
-  username: vannguyen
+  username: travisbrault
   password:
   host: localhost
 
@@ -43,7 +43,7 @@ test:
   encoding: utf8
   database: arco_portfolio_test
   pool: 5
-  username: vannguyen
+  username: travisbrault
   password:
   host: localhost
 
@@ -52,6 +52,6 @@ production:
   encoding: utf8
   database: arco_portfolio_production
   pool: 5
-  username: vannguyen
+  username: travisbrault
   password:
   host: localhost

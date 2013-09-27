@@ -2,9 +2,12 @@
 "use strict";
 
 /* ======= START CUSTOM ======= */
+$(document).ready(function() {
+	$('.home_parallax').fadeIn(1000)
+});
 
 $(document).ready(function() {
-	$('.home_page_title').hide(0).delay(500).fadeIn(2000)
+	$('.home_page_title').hide(0).delay(2000).fadeIn(2000)
 });
 
 $(function() {

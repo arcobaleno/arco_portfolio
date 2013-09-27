@@ -33,6 +33,12 @@
 								<li><a href="#services">Services</a></li>
 								<li><a href="#portfolio">Portfolio</a></li>
 								<li><a href="#contact">Contact</a></li>
+								<% if session[:user_id] %>
+
+								<li><%= link_to 'Logout',   logout_path, method: :delete %></li>
+								<li><%= link_to 'Requests', requests_path %></li>
+
+								<% end %>
 							</ul>
 						</div>
 						<div class="container_menu hidden-md hidden-lg">

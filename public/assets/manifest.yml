@@ -17,8 +17,8 @@ babsonmexico.png: babsonmexico-65a6c5bbfb9b5f51c99de14aba252ead.png
 babsonmexico/index.png: babsonmexico-65a6c5bbfb9b5f51c99de14aba252ead.png
 boston.png: boston-9306a3bbbd5d182c2626be3a84900c5d.png
 boston/index.png: boston-9306a3bbbd5d182c2626be3a84900c5d.png
-boston2.png: boston2-7a400ce3299bda04df3eae8067f9df96.png
-boston2/index.png: boston2-7a400ce3299bda04df3eae8067f9df96.png
+boston2.png: boston2-dd8873d91866dfd7c3179889646a9910.png
+boston2/index.png: boston2-dd8873d91866dfd7c3179889646a9910.png
 css3.png: css3-950eec5dcf8c95b65da7c1e3c78273ee.png
 css3/index.png: css3-950eec5dcf8c95b65da7c1e3c78273ee.png
 globalcatalysts.png: globalcatalysts-1956a1602d82f6c12c69f7bdd7af0da7.png
@@ -53,10 +53,10 @@ trav1.png: trav1-8a91811e44b7c9206075934a1b720b39.png
 trav1/index.png: trav1-8a91811e44b7c9206075934a1b720b39.png
 van.png: van-4362657bf94dc1f4104fc492d118f259.png
 van/index.png: van-4362657bf94dc1f4104fc492d118f259.png
-application.js: application-f8eb6c73721a866252d675fe5170ee92.js
-application/index.js: application-f8eb6c73721a866252d675fe5170ee92.js
-application.css: application-91d1d09f0473f145cbef46613244cb38.css
-application/index.css: application-91d1d09f0473f145cbef46613244cb38.css
+application.js: application-6a7c362211e3eb5eafe36669cd177461.js
+application/index.js: application-6a7c362211e3eb5eafe36669cd177461.js
+application.css: application-5efae45f119590c04dbbfeb014a5e27e.css
+application/index.css: application-5efae45f119590c04dbbfeb014a5e27e.css
 FontAwesome.otf: FontAwesome-d2e1f2cb067bb8a9b129341f5ed85582.otf
 FontAwesome/index.otf: FontAwesome-d2e1f2cb067bb8a9b129341f5ed85582.otf
 fontawesome-webfont.eot: fontawesome-webfont-009f6d1f667cc42c25e712ab3429cbc7.eot

@@ -1,5 +1,22 @@
 ArcoPortfolio::Application.routes.draw do
 
+  get 'requests' => 'requests#index'
+
+  controller :sessions do
+    get    'login'  => :new
+    post   'login'  => :create
+    delete 'logout' => :destroy
+  end
+
+  get "sessions/new"
+
+  get "sessions/create"
+
+  get "sessions/destroy"
+
+  resources :users
+
+
   root :to => 'static_pages#index'
 
   resources :requests
